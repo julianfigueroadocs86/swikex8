@@ -1,0 +1,1 @@
+web: java -jar target/swikex8-0.0.1-SNAPSHOT.war
