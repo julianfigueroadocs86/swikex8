@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" 
-	xmlns:th="http://www.thymeleaf.org">
-	<head>
-		<title>SWIKEX8</title>
-		<link th:href="@{/styles/main.css}" rel="stylesheet" />
-	</head>
-	<body>
-		<h1>SWikex 8.</h1>
-		<img th:src="@{/images/spring-framework.jpg}">
-	</body>
+        xmlns:th="http://www.thymeleaf.org"
+        lang="en"
+        xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="./shared/_layout"
+        >
+        <head>
+                <title>SWIKEX8</title>
+                <link th:href="@{/styles/main.css}" rel="stylesheet" />
+        </head>
+        <body layout:fragment="content">
+                <h1>SWikex 8.4</h1>
+                <img th:src="@{/images/spring-framework.jpg}">
+        </body>
 </html>
