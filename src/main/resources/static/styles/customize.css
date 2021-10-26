@@ -1,0 +1,16 @@
+html {
+  height: calc(100% - 56px);
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  height: 100vh;
+}
+
+.no-margin
+{
+    margin: 0px 0px 0px 0px !important;
+}
